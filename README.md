@@ -5,17 +5,16 @@ Assembled unit outputs up to 30V 5A ( digitally adjustable with OVP & OCP) to Ba
 WARNING: This a hardware project that uses 120V AC mains power. It has not yet caught on fire, but there are absolutely no guarantees.
 
 # Documentation
-Design documentation:   https://rgulland.com/blog/2021/11/5/portable-power-supply-design
-Assembly documentation: https://rgulland.com/blog/2021/11/10/portable-power-supply-assembly
-Testing results:        https://rgulland.com/blog/2022/01/31portable-power-supply-testing
+Design documentation:   https://rgulland.com/blog/2021/11/5/portable-power-supply-design  
+Assembly documentation: https://rgulland.com/blog/2021/11/10/portable-power-supply-assembly  
+Testing results:        https://rgulland.com/blog/2022/01/31portable-power-supply-testing  
 
-This is a heavily modified version of Kralyn3D's original 'DIY Mini Lab Bench Power Supply is available at https://www.youtube.com/watch?v=PhLFmokgr9o 
+This is a heavily modified version of Kralyn3D's original 'DIY Mini Lab Bench Power Supply' is available at https://www.youtube.com/watch?v=PhLFmokgr9o 
 I personally don't recommend building the original version without reimplementing some of the AC safety features from this project (fuse, AC plug, digital power limit)
 
 # Build Notes
-Please don't build this unless you're confident working with mains power and have sufficient materials to do it safely.  
-Please read all blogs before building.  
-On initial power on, set a default power limit of 125-150W & 30.1V on the DSP5005 when using the AC input.  Above these limits, the AC-DC converter components will have a shorter life due to high temperatures. 
+Please don't build this unless you're confident working with mains power and have sufficient materials to do it safely. Please read all blogs before building.  
+On initial power on, make sure to set a default power limit of 125-150W & 30.1V on the DSP5005 when using the AC input.  Above these limits, the AC-DC converter components will have a shorter life due to high temperatures. 
 
 # LICENSE
 This project is under the GPL v3 license.  There's little to no IP here, as most components are COTS, so this is more an endorsement of keeping more things open source. Open source hardware projects are rare, so if yours is, thanks :)  
